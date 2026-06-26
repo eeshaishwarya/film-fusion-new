@@ -1,0 +1,26 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+   width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 1.8em;
+    padding: 15px 30px;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    z-index: 1000;
+  }
+  
+  .logo-icon {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%; /* optional: circular icon */
+    object-fit: cover;
+  }
